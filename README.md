@@ -8,6 +8,10 @@ The idea and all the parts were taken from [getavataaars.com](https://getavataaa
 
 
 
+### For use you need install [ImageMagick](https://imagemagick.org/index.php)
+
+
+
 Developed by y0gurt-dv 2022.
 
 # Parts
@@ -74,5 +78,3 @@ if auto_optional == True
 - All optional field will be filled in automatically
 
 - All required fields (fields that are not in OPTIONAL_FIELDS)  that are not specified in the config 
-
-
