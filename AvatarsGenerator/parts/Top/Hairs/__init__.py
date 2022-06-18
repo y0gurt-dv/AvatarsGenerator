@@ -1,5 +1,3 @@
-from random import choice
-from ...colors import HAIR_COLORS
 from .Bob import Bob
 from .Bun import Bun
 from .Curly import Curly

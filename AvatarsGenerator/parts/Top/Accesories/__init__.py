@@ -1,5 +1,4 @@
 from .Eyepatch import EyePatch
-from random import choice
 
 
 ACCESORIES = {

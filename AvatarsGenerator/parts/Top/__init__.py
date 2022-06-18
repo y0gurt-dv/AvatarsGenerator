@@ -1,9 +1,8 @@
-from random import choice
 from .Accesories import get_accesories
 from .Hats import get_hats
 from .Glasses import get_glasses
 from .Hairs import get_hair, HAIRS_DOWN
-from ..FacialHair import get_facial_hairs
+from .FacialHair import get_facial_hairs
 
 def get_top(config):
    hair = get_hair(config)

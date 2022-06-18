@@ -1,5 +1,3 @@
-from random import choice
-from ..colors import HAIR_COLORS
 from .BeardLight import BeardLight
 from .BeardMagestic import BeardMagestic
 from .BeardMedium import BeardMedium

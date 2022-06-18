@@ -1,18 +1,18 @@
 import random
-from parts.colors import HAIR_COLORS, PALETTE_COLORS, SKIN_COLORS
-from parts.Mouth import MOUTHS_NAMES
-from parts.Eyebrow import EYEBROWS_NAMES
-from parts.Eyes import EYES_NAMES
-from parts.Top.Hats import HATS_NAMES
-from parts.FacialHair import FACIALHAIRS_NAMES
-from parts.Top.Glasses import GLASSES_NAMES
-from parts.Top.Accesories import ACCESORIES_NAMES
-from parts.Top.Hairs import HAIRS_NAMES
-from parts.Clothing import CLOTHING_NAMES, get_clothing
-from parts.Clothing.Graphic import GRAPHICS_NAMES
-from parts.body import get_skin
-from parts.face import get_face
-from parts.Top import get_top
+from .parts.colors import HAIR_COLORS, PALETTE_COLORS, SKIN_COLORS
+from .parts.Mouth import MOUTHS_NAMES
+from .parts.Eyebrow import EYEBROWS_NAMES
+from .parts.Eyes import EYES_NAMES
+from .parts.Top.Hats import HATS_NAMES
+from .parts.Top.FacialHair import FACIALHAIRS_NAMES
+from .parts.Top.Glasses import GLASSES_NAMES
+from .parts.Top.Accesories import ACCESORIES_NAMES
+from .parts.Top.Hairs import HAIRS_NAMES
+from .parts.Clothing import CLOTHING_NAMES, get_clothing
+from .parts.Clothing.Graphic import GRAPHICS_NAMES
+from .parts.body import get_skin
+from .parts.face import get_face
+from .parts.Top import get_top
 from typing import Literal
 from wand.image import Image
 from wand.color import Color

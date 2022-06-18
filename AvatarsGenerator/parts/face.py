@@ -1,7 +1,7 @@
-from parts.Eyes import get_eyes
-from parts.Mouth import get_mouth
-from parts.Eyebrow import get_eyebrows
-from parts.Nose import get_nose
+from .Eyes import get_eyes
+from .Mouth import get_mouth
+from .Eyebrow import get_eyebrows
+from .Nose import get_nose
 
 def get_face(config):
     eyebrow_name= config.get('eyebrow_name')

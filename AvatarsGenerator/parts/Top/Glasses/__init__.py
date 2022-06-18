@@ -4,8 +4,6 @@ from .Prescription2 import Prescription2
 from .Round import Round
 from .Sunglasses import Sunglasses
 from .Wayfarers import Wayfarers
-from random import choice
-
 
 GLASSES = {
     'Blank': (lambda: ''),
